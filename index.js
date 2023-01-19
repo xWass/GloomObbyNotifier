@@ -1,5 +1,5 @@
 const chalk = require("chalk");
-const { Client, Collection, Intents } = require("discord.js");
+const { Client, Intents } = require("discord.js");
 const intents = new Intents();
 const cron = require("node-cron");
 
@@ -16,9 +16,8 @@ intents.add(
 const client = new Client({
     intents,
     partials: ["MESSAGE", "REACTION"],
-    allowedMentions: { parse: ["users"] },
+    allowedMentions: { parse: ["users", "roles"] },
 });
-const timestamp = new Date();
 
 client.on("ready", async () => {
     client.user.setActivity("Gloom Cry :(", { type: "LISTENING" });
@@ -32,7 +31,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -54,7 +53,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -76,7 +75,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -98,7 +97,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -120,7 +119,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -142,7 +141,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -164,7 +163,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -186,7 +185,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -208,7 +207,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -230,7 +229,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -252,7 +251,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -274,7 +273,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -296,7 +295,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -318,7 +317,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -340,7 +339,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
@@ -362,7 +361,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}`,
+                            text: `${new Date().toUTCString}`,
                         },
                     },
                 ],
