@@ -26,13 +26,13 @@ client.on("ready", async () => {
         "0 0 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407195069554728",
+                content: "<@&1065407195069554728>",
                 embeds: [
                     {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -48,13 +48,13 @@ client.on("ready", async () => {
         "0 1 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740",
+                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -70,13 +70,13 @@ client.on("ready", async () => {
         "0 3 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407195069554728",
+                content: "<@&1065407195069554728>",
                 embeds: [
                     {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -92,13 +92,13 @@ client.on("ready", async () => {
         "0 4 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740",
+                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -114,13 +114,13 @@ client.on("ready", async () => {
         "0 6 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407195069554728",
+                content: "<@&1065407195069554728>",
                 embeds: [
                     {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -136,13 +136,13 @@ client.on("ready", async () => {
         "0 7 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740",
+                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -158,13 +158,13 @@ client.on("ready", async () => {
         "0 9 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407195069554728",
+                content: "<@&1065407195069554728>",
                 embeds: [
                     {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -180,13 +180,13 @@ client.on("ready", async () => {
         "0 10 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740",
+                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -202,13 +202,13 @@ client.on("ready", async () => {
         "0 12 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407195069554728",
+                content: "<@&1065407195069554728>",
                 embeds: [
                     {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -224,13 +224,13 @@ client.on("ready", async () => {
         "0 13 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740",
+                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -246,13 +246,13 @@ client.on("ready", async () => {
         "0 15 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407195069554728",
+                content: "<@&1065407195069554728>",
                 embeds: [
                     {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -268,13 +268,13 @@ client.on("ready", async () => {
         "0 16 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740",
+                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -290,13 +290,13 @@ client.on("ready", async () => {
         "0 18 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407195069554728",
+                content: "<@&1065407195069554728>",
                 embeds: [
                     {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -312,13 +312,13 @@ client.on("ready", async () => {
         "0 19 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740",
+                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -334,13 +334,13 @@ client.on("ready", async () => {
         "0 21 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407195069554728",
+                content: "<@&1065407195069554728>",
                 embeds: [
                     {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
@@ -356,13 +356,13 @@ client.on("ready", async () => {
         "0 22 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740",
+                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${timestamp.toUTCString()}:f>`,
+                            text: `${timestamp.toUTCString()}`,
                         },
                     },
                 ],
