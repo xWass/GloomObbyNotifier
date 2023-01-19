@@ -31,7 +31,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -53,7 +53,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -75,7 +75,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -97,7 +97,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -119,7 +119,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -141,7 +141,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -163,7 +163,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -185,7 +185,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -207,7 +207,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -229,7 +229,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -251,7 +251,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -273,7 +273,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -295,7 +295,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -317,7 +317,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -339,7 +339,7 @@ client.on("ready", async () => {
                         title: "Obelisk has begun!",
                         color: "daa62a",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
@@ -361,7 +361,7 @@ client.on("ready", async () => {
                         title: "Gloom has spawned!",
                         color: "793dff",
                         footer: {
-                            text: `${new Date().toUTCString}`,
+                            text: `${new Date().toUTCString()}`,
                         },
                     },
                 ],
