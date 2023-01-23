@@ -24,7 +24,6 @@ module.exports = {
             embeds: [
                 {
                     title: "Restarting",
-                    description: stdout,
                 },
             ],
             ephemeral: true,
