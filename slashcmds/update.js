@@ -13,7 +13,7 @@ module.exports = {
             await interaction.followUp({
                 embeds: [
                     {
-                        title: "Pulled from Git",
+                        title: "Updating",
                         description: `Status: \`\`\`${stdout}\`\`\` \nRestarting...`,
                     },
                 ],
