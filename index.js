@@ -20,7 +20,8 @@ const client = new Client({
 });
 
 client.on("ready", async () => {
-    client.user.setActivity("Gloom Cry :(", { type: "LISTENING" });
+    client.user.setActivity("Gloom Cry :(", {type: "LISTENING"});
+    
     cron.schedule(
         "0 0 * * *",
         () => {
@@ -29,6 +30,9 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Obelisk has begun!",
+                        description: `Next: Gloom <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
                         color: "daa62a",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -51,6 +55,34 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Gloom has spawned!",
+                        description: `Next: Nothing <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+                        color: "793dff",
+                        footer: {
+                            text: `${new Date().toUTCString()}`,
+                        },
+                    },
+                ],
+            });
+        },
+        {
+            scheduled: true,
+            timezone: "UTC",
+        }
+    );
+
+    cron.schedule(
+        "0 2 * * *",
+        () => {
+            client.channels.cache.get("1065407247729037414").send({
+                content: "<@&1065407163008286740>",
+                embeds: [
+                    {
+                        title: "No events!",
+                        description: `Next: Obelisk <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
                         color: "793dff",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -73,6 +105,10 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Obelisk has begun!",
+                        description: `Next: Gloom <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
                         color: "daa62a",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -95,6 +131,35 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Gloom has spawned!",
+                        description: `Next: Nothing <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
+                        color: "793dff",
+                        footer: {
+                            text: `${new Date().toUTCString()}`,
+                        },
+                    },
+                ],
+            });
+        },
+        {
+            scheduled: true,
+            timezone: "UTC",
+        }
+    );
+
+    cron.schedule(
+        "0 5 * * *",
+        () => {
+            client.channels.cache.get("1065407247729037414").send({
+                content: "<@&1065407163008286740>",
+                embeds: [
+                    {
+                        title: "No events!",
+                        description: `Next: Obelisk <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
                         color: "793dff",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -117,6 +182,10 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Obelisk has begun!",
+                        description: `Next: Gloom <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
                         color: "daa62a",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -139,6 +208,35 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Gloom has spawned!",
+                        description: `Next: Nothing <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
+                        color: "793dff",
+                        footer: {
+                            text: `${new Date().toUTCString()}`,
+                        },
+                    },
+                ],
+            });
+        },
+        {
+            scheduled: true,
+            timezone: "UTC",
+        }
+    );
+
+    cron.schedule(
+        "0 8 * * *",
+        () => {
+            client.channels.cache.get("1065407247729037414").send({
+                content: "<@&1065407163008286740>",
+                embeds: [
+                    {
+                        title: "No events!",
+                        description: `Next: Obelisk <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
                         color: "793dff",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -161,6 +259,10 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Obelisk has begun!",
+                        description: `Next: Gloom <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
                         color: "daa62a",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -183,6 +285,35 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Gloom has spawned!",
+                        description: `Next: Nothing <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
+                        color: "793dff",
+                        footer: {
+                            text: `${new Date().toUTCString()}`,
+                        },
+                    },
+                ],
+            });
+        },
+        {
+            scheduled: true,
+            timezone: "UTC",
+        }
+    );
+
+    cron.schedule(
+        "0 11 * * *",
+        () => {
+            client.channels.cache.get("1065407247729037414").send({
+                content: "<@&1065407163008286740>",
+                embeds: [
+                    {
+                        title: "No events!",
+                        description: `Next: Obelisk <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
                         color: "793dff",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -205,6 +336,10 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Obelisk has begun!",
+                        description: `Next: Gloom <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
                         color: "daa62a",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -227,6 +362,35 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Gloom has spawned!",
+                        description: `Next: Nothing <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
+                        color: "793dff",
+                        footer: {
+                            text: `${new Date().toUTCString()}`,
+                        },
+                    },
+                ],
+            });
+        },
+        {
+            scheduled: true,
+            timezone: "UTC",
+        }
+    );
+
+    cron.schedule(
+        "0 14 * * *",
+        () => {
+            client.channels.cache.get("1065407247729037414").send({
+                content: "<@&1065407163008286740>",
+                embeds: [
+                    {
+                        title: "No events!",
+                        description: `Next: Obelisk <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
                         color: "793dff",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -249,6 +413,10 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Obelisk has begun!",
+                        description: `Next: Gloom <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
                         color: "daa62a",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -271,6 +439,35 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Gloom has spawned!",
+                        description: `Next: Nothing <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
+                        color: "793dff",
+                        footer: {
+                            text: `${new Date().toUTCString()}`,
+                        },
+                    },
+                ],
+            });
+        },
+        {
+            scheduled: true,
+            timezone: "UTC",
+        }
+    );
+
+    cron.schedule(
+        "0 17 * * *",
+        () => {
+            client.channels.cache.get("1065407247729037414").send({
+                content: "<@&1065407163008286740>",
+                embeds: [
+                    {
+                        title: "No events!",
+                        description: `Next: Obelisk <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
                         color: "793dff",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -293,6 +490,10 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Obelisk has begun!",
+                        description: `Next: Gloom <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
                         color: "daa62a",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -315,6 +516,35 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Gloom has spawned!",
+                        description: `Next: Nothing <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
+                        color: "793dff",
+                        footer: {
+                            text: `${new Date().toUTCString()}`,
+                        },
+                    },
+                ],
+            });
+        },
+        {
+            scheduled: true,
+            timezone: "UTC",
+        }
+    );
+
+    cron.schedule(
+        "0 20 * * *",
+        () => {
+            client.channels.cache.get("1065407247729037414").send({
+                content: "<@&1065407163008286740>",
+                embeds: [
+                    {
+                        title: "No events!",
+                        description: `Next: Obelisk <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
                         color: "793dff",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -337,6 +567,10 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Obelisk has begun!",
+                        description: `Next: Gloom <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
                         color: "daa62a",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -359,6 +593,10 @@ client.on("ready", async () => {
                 embeds: [
                     {
                         title: "Gloom has spawned!",
+                        description: `Next: Nothing <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+
                         color: "793dff",
                         footer: {
                             text: `${new Date().toUTCString()}`,
@@ -372,6 +610,32 @@ client.on("ready", async () => {
             timezone: "UTC",
         }
     );
+
+    cron.schedule(
+        "0 23 * * *",
+        () => {
+            client.channels.cache.get("1065407247729037414").send({
+                content: "<@&1065407163008286740>",
+                embeds: [
+                    {
+                        title: "No events!",
+                        description: `Next: Obelisk <t:${
+                            Math.floor(Date.now() / 1000) + 3600
+                        }:R>`,
+                        color: "793dff",
+                        footer: {
+                            text: `${new Date().toUTCString()}`,
+                        },
+                    },
+                ],
+            });
+        },
+        {
+            scheduled: true,
+            timezone: "UTC",
+        }
+    );
+
     console.log(chalk.greenBright("Ready!"));
 });
 
