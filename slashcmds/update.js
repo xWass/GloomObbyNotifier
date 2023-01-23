@@ -14,15 +14,7 @@ module.exports = {
                 embeds: [
                     {
                         title: "Pulled from Git",
-                        description: stdout,
-                    },
-                ],
-                ephemeral: false,
-            });
-            await interaction.followUp({
-                embeds: [
-                    {
-                        title: "Restarting",
+                        description: `Status: \`\`\`${stdout}\`\`\` \nRestarting...`,
                     },
                 ],
                 ephemeral: false,
