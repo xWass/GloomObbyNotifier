@@ -1,0 +1,1 @@
+Hi! Heres my code! It's kinda scuffed right now, but in the late future I may just build an event type system and make it public.
