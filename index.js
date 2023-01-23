@@ -636,8 +636,6 @@ client.on("ready", async () => {
             timezone: "UTC",
         }
     );
-
-    console.log(chalk.greenBright("Ready!"));
 });
 client.SlashCommands = new Collection();
 const commandFiles = fs

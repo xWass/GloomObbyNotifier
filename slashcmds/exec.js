@@ -12,8 +12,9 @@ module.exports = {
                 .setRequired(true)
         ),
     async execute(interaction) {
-        const comm = interaction.options.getString("command");
-        await interaction.deferReply();
+        const comm=interaction.options.getString("command");
+        if (interaction.user.id!=="928624781731983380") return;
+            await interaction.deferReply();
         exec(comm, (error, stdout) => {
             if (error) {
                 interaction.followUp({
