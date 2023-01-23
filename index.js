@@ -77,7 +77,6 @@ client.on("ready", async () => {
         "0 2 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "No events!",
@@ -154,7 +153,6 @@ client.on("ready", async () => {
         "0 5 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "No events!",
@@ -231,7 +229,6 @@ client.on("ready", async () => {
         "0 8 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "No events!",
@@ -308,7 +305,6 @@ client.on("ready", async () => {
         "0 11 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "No events!",
@@ -385,7 +381,6 @@ client.on("ready", async () => {
         "0 14 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "No events!",
@@ -462,7 +457,6 @@ client.on("ready", async () => {
         "0 17 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "No events!",
@@ -539,7 +533,6 @@ client.on("ready", async () => {
         "0 20 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "No events!",
@@ -616,7 +609,6 @@ client.on("ready", async () => {
         "0 23 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
-                content: "<@&1065407163008286740>",
                 embeds: [
                     {
                         title: "No events!",
