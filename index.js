@@ -1,5 +1,5 @@
 const chalk = require("chalk");
-const { Client, Intents } = require("discord.js");
+const { Client, Collection, Intents } = require("discord.js");
 const intents = new Intents();
 const cron = require("node-cron");
 
@@ -638,7 +638,6 @@ client.on("ready", async () => {
 
     console.log(chalk.greenBright("Ready!"));
 });
-
 client.SlashCommands = new Collection();
 const commandFiles = fs
     .readdirSync("./commands")
