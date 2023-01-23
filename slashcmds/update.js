@@ -10,16 +10,6 @@ module.exports = {
         if (interaction.user.id !== "928624781731983380") return;
         await interaction.deferReply();
         await execSync("git pull", (error, stdout) => {
-            if (stdout==="Already up to date.") {
-                interaction.followUp({
-                    embeds: [
-                        {
-                            title: stdout,
-                        },
-                    ],
-                });
-                return;
-            }
             interaction.followUp({
                 embeds: [
                     {
@@ -39,6 +29,6 @@ module.exports = {
             ephemeral: true,
         });
 
-        await execSync("pm2 restart 2", (error, stdout) => {});
+        await exec("pm2 restart 2", (error, stdout) => {});
     },
 };
