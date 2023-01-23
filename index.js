@@ -641,7 +641,7 @@ client.on("ready", async () => {
 });
 client.SlashCommands = new Collection();
 const commandFiles = fs
-    .readdirSync("./commands")
+    .readdirSync("./slashcmds")
     .filter((file) => file.endsWith(".js"));
 
 const { REST } = require("@discordjs/rest");
