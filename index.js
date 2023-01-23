@@ -1,6 +1,7 @@
 const chalk = require("chalk");
 const { Client, Collection, Intents } = require("discord.js");
-const intents = new Intents();
+const intents=new Intents();
+const fs = require("fs");
 const cron = require("node-cron");
 
 require("dotenv").config();
