@@ -3,8 +3,8 @@ const { exec, execSync } = require("child_process");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("exec")
-        .setDescription("Execute a command."),
+        .setName("update")
+        .setDescription("Update the bot."),
     
     async execute(interaction) {
         if (interaction.user.id !== "928624781731983380") return;
