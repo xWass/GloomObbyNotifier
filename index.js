@@ -24,7 +24,7 @@ client.on("ready", async () => {
     client.user.setActivity("Gloom Cry :(", {type: "LISTENING"});
     
     cron.schedule(
-        "0 0 * * *",
+        "55 11 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
@@ -49,7 +49,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 1 * * *",
+        "55 0 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407163008286740>",
@@ -74,7 +74,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 2 * * *",
+        "55 1 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 embeds: [
@@ -98,7 +98,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 3 * * *",
+        "55 2 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
@@ -124,7 +124,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 4 * * *",
+        "55 3 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407163008286740>",
@@ -150,7 +150,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 5 * * *",
+        "55 4 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 embeds: [
@@ -174,7 +174,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 6 * * *",
+        "55 5 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
@@ -200,7 +200,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 7 * * *",
+        "55 6 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407163008286740>",
@@ -226,7 +226,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 8 * * *",
+        "55 7 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 embeds: [
@@ -250,7 +250,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 9 * * *",
+        "55 8 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
@@ -276,7 +276,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 10 * * *",
+        "55 9 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407163008286740>",
@@ -302,7 +302,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 11 * * *",
+        "55 10 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 embeds: [
@@ -326,7 +326,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 12 * * *",
+        "55 11 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
@@ -352,7 +352,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 13 * * *",
+        "55 12 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407163008286740>",
@@ -378,7 +378,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 14 * * *",
+        "55 13 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 embeds: [
@@ -402,7 +402,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 15 * * *",
+        "55 14 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
@@ -428,7 +428,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 16 * * *",
+        "55 15 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407163008286740>",
@@ -454,7 +454,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 17 * * *",
+        "55 16 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 embeds: [
@@ -478,7 +478,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 18 * * *",
+        "55 17 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
@@ -504,7 +504,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 19 * * *",
+        "55 18 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407163008286740>",
@@ -530,7 +530,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 20 * * *",
+        "55 19 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 embeds: [
@@ -554,7 +554,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 21 * * *",
+        "55 20 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
@@ -580,7 +580,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 22 * * *",
+        "55 21 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407163008286740>",
@@ -606,7 +606,7 @@ client.on("ready", async () => {
     );
 
     cron.schedule(
-        "0 23 * * *",
+        "55 22 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 embeds: [
