@@ -24,7 +24,7 @@ client.on("ready", async () => {
     client.user.setActivity("Gloom Cry :(", {type: "LISTENING"});
     
     cron.schedule(
-        "55 11 * * *",
+        "55 23 * * *",
         () => {
             client.channels.cache.get("1065407247729037414").send({
                 content: "<@&1065407195069554728>",
